@@ -11,6 +11,6 @@
 *.blg
 *.bbl
 *.synctex.gz
-
+*.xdv
 # Ignore system files
 .DS_Store

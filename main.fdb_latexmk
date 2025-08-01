@@ -1,6 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1754016487.62246 "c:/Users/11720/Desktop/RewriteHW/main.tex" "main.pdf" "main" 1754016489.01529 0
-  "c:/Users/11720/Desktop/RewriteHW/main.tex" 1754016487 173584 0cde3c30b2328ef159978e7ddf3aa5c6 ""
+["pdflatex"] 1754042628.68016 "main.tex" "main.pdf" "main" 1754042630.2614 0
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1745895622 2375 baa924870cfb487815765f9094cf3728 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1745895622 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1745895622 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -206,7 +205,7 @@
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1745896518 5512713 d5293fe2524c042fff1d1aaaba621917 ""
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1745896669 3346129 68ea4d96589474709141898c033f9b35 ""
   "c:/texlive/2025/texmf.cnf" 1745896499 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1754016488 417 ce848a4d02c9dd2269d983b52b4eea6d "pdflatex"
+  "main.aux" 1754042630 417 ce848a4d02c9dd2269d983b52b4eea6d "pdflatex"
   "main.tex" 1754016487 173584 0cde3c30b2328ef159978e7ddf3aa5c6 ""
   (generated)
   "main.aux"

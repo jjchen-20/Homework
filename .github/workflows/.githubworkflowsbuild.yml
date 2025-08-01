@@ -35,4 +35,4 @@ jobs:
             echo "Checking $file"
             aspell --lang=en --mode=tex list < "$file" | sort -u
           done
-        continue-on-error: true
+        continue-on-error: true 

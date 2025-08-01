@@ -33,6 +33,6 @@ jobs:
         run: |
           for file in $(find . -type f \( -name '*.tex' -o -name '*.md' \)); do
             echo "Checking $file"
-            aspell --lang=en --mode=tex list < "$file" | sort - u
+            aspell --lang=en --mode=tex list < "$file" | sort -u
           done
         continue-on-error: true

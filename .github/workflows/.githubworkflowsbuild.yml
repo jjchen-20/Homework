@@ -12,13 +12,13 @@ jobs:
       - name: Compile LaTeX
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: main.tex
+          root_file: ../main.tex
           
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4  
         with:
           name: main.pdf
-          path: main.pdf
+          path: ../main.pdf
           
   spellcheck:
     runs-on: ubuntu-latest
@@ -31,7 +31,7 @@ jobs:
         
       - name: Run spellcheck
         run: |
-          for file in $(find . -type f \( -name '*.tex' -o -name '*.md' \)); do
+          for file in $(find .. -type f \( -name '*.tex' -o -name '*.md' \)); do
             echo "Checking $file"
             aspell --lang=en --mode=tex list < "$file" | sort 
           done
